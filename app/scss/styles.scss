@@ -41,7 +41,7 @@ body {
         padding: 1.1875rem 1.625rem;
         max-width: 329px;
 
-        .image {
+        .image-link {
             position: relative;
 
             img {
@@ -124,6 +124,7 @@ body {
                 width: 100%;
                 height: 1px;
                 background-color: $Very-Dark-Blue_Line;
+                border: none;
             }
 
             .author {
@@ -162,7 +163,7 @@ body {
             padding: 1.625rem;
             max-width: 345px;
     
-            .image {
+            .image-link {
     
                 img {
                     width: 100%;
@@ -181,6 +182,7 @@ body {
                     z-index: 1;
                     justify-content: center;
                     align-items: center;
+                    border-radius: .6875rem;
 
                     img {
                         width: 48px;

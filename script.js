@@ -1,5 +1,5 @@
 const overlay = document.querySelector(".overlay");
-const image = document.querySelector(".image");
+const image = document.querySelector(".image-link");
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
